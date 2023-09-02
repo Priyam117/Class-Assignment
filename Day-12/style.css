@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#box {
+	width: 7vw;
+	height: 7vw;
+	background-color: green;
+	cursor: pointer;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#box p {
+	font-size: 1.4vw;
+	color: white;
+}
