@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 1px solid black;
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    width: 20%;
+}
+#targetDiv{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 40px;
+    width: 20%;
+}
+select {
+    padding: .2em;
+    margin: .5em;
+}
